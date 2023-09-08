@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - Entry point 
+ *
+ * Description: this script writes the minimalized 
+ * alphabet with using putchar only on time in the
+ * entire code
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+  int n = 97;
+  int n1 = 122;
+  
+  for( ; n <= n1 ; )
+    putchar(n);
+  return (0);
+}
