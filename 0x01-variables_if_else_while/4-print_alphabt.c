@@ -6,15 +6,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int n;
 
 	for (n = 97; n <= 122; n++)
 	{
-		if (n == 101)
-			continue;
-		else if (n == 113)
+		if (n == 101 || n == 113)
 			continue;
 		else
 			putchar(n);
