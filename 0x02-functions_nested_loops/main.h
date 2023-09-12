@@ -1,6 +1,6 @@
-int _putchar(char);
+int pc(char);
 
-int _putchar(char c)
+int pc(char c)
 {
 	return (write(1, &c, 1));
 }
