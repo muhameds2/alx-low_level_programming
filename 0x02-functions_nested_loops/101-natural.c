@@ -5,7 +5,7 @@
  *
  * Return: Always void
  */
-void sum_of_multiples()
+int main(void)
 {
 	int i, j, k, sum = 0;
 
