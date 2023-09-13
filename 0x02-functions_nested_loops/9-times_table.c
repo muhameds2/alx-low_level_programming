@@ -24,8 +24,13 @@ void times_table(void)
 			if (j == 9)
 				continue;
 			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+			if (n2 == 0)
+			{
+				_putchar(' ');
+				_putchar(' ');
+			}
+			else
+				_putchar(' ');
 		}
 		_putchar('\n');
 	}
