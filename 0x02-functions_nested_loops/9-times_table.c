@@ -14,23 +14,38 @@ void times_table(void)
 		{
 			n1 = i * j;
 			n2 = n1 / 10;
-			if (n2 == 0)
+			if (n1 < 10)
+			{
 				_putchar('0' + n1);
-			else
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+			}
+			else if (n1 > 10)
 			{
 				_putchar('0' + n2);
 				_putchar('0' + (n1 % 10));
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
 			}
-			if (j == 9)
+			/*if (j == 9)
 				continue;
-			_putchar(',');
 			if (n2 == 0)
 			{
+				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+		
 			}
-			else
+			else 
+			{
+				_putchar(',');
 				_putchar(' ');
+			}*/
 		}
 		_putchar('\n');
 	}
