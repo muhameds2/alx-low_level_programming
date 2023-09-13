@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * sum_of_multiples - print the sum of multiples
+ * main - print the sum of multiples
  * of 3 or 5 below 1024
  *
  * Return: Always void
