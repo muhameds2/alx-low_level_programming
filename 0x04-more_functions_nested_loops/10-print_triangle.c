@@ -15,7 +15,7 @@ void print_triangle(int size)
 	{
 		for (row = 0; row < size; row++)
 		{
-			for (i = 0; i < size - i - 1; i++)
+			for (i = 0; i < size - row - 1; i++)
 			{
 				printf(" ");
 			}
