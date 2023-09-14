@@ -9,6 +9,11 @@ void print_triangle(int size)
 {
 	int row, column, i;
 
+	if (size <= 0)
+	{
+		printf("\n");
+		return;
+	}
 	for (row = 0; row < size; row++)
 	{
 		for (i = 0; i < size - i - 1; i++)
