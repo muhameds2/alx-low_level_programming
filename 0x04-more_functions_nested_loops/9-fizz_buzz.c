@@ -2,7 +2,7 @@
 /**
  * main - FizzBuzz test
  *
- * Return: Always 1(Success)
+ * Return: Always 0(Success)
  */
 int main(void)
 {
@@ -28,5 +28,5 @@ int main(void)
 			printf("%d", i);
 	}
 	printf("\n");
-	return (1);
+	return (0);
 }
