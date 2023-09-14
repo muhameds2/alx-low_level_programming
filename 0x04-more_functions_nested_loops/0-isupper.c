@@ -1,5 +1,6 @@
 /**
  * _isupper - Entry point
+ *@c: the character to be checked if it's upper case of not
  *
  * Return: 1 if upper and 0 if lower
  */
