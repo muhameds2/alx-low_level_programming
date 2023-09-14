@@ -10,20 +10,20 @@ void print_triangle(int size)
 	int row, column, i;
 
 	if (size <= 0)
-	{
 		printf("\n");
-		return;
-	}
-	for (row = 0; row < size; row++)
+	else
 	{
-		for (i = 0; i < size - i - 1; i++)
+		for (row = 0; row < size; row++)
 		{
-			printf(" ");
+			for (i = 0; i < size - i - 1; i++)
+			{
+				printf(" ");
+			}
+			for (column = 0; column <= row; column++)
+			{
+				printf("#");
+			}
+			printf("\n");
 		}
-		for (column = 0; column <= row; column++)
-		{
-			printf("#");
-		}
-		printf("\n");
 	}
 }
