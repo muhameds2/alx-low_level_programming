@@ -2,29 +2,31 @@
 /**
  * main - FizzBuzz test
  *
- * Return: void
+ * Return: Always 1(Success)
  */
 int main(void)
 {
-	int mul3, mul5, mul35, i;
+	int  i;
 
 	for (i = 1; i <= 100; i++)
 	{
-		mul3 = i * 3;
-		mul5 = i * 5;
-		if (mul3 % 3 == 0)
+		if (i != 1)
+			printf(" ");
+		if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
-		else if (mul5 % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
-		else if (((mul3 % 3) == 0) && ((mul5 % 5) == 0))
+		else if (((i % 3) == 0) && ((i % 5) == 0))
 		{
 			printf("FizzBuzz");
 		}
 		else
 			printf("%d", i);
 	}
+	printf("\n");
+	return (1);
 }
