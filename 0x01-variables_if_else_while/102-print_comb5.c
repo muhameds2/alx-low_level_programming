@@ -11,9 +11,7 @@ int main(void)
 	{
 		for (j = i + 1; j <= 99; j++)
 		{
-			if (j == i + 1)
-				continue;
-			else if (j != 100)
+			if (j != 100 && j != 1)
 			{
 				putchar(',');
 				putchar(' ');
