@@ -7,7 +7,7 @@ int main(void)
 {
 	for (int i = 0; i <= 99; i++) 
 	{
-		for (int j = i+1; j <= 99; j++)
+		for (int j = i + 1; j <= 99; j++)
 		{
 			putchar((i/10)%10 + '0');
 			putchar(i%10 + '0');
