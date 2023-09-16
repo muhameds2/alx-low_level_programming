@@ -7,27 +7,22 @@
  */
 void print_number(int n)
 {
+	int i, digits = 0;
 	if (n == 0)
 	{
 		_putchar('0');
 		return;
 	}
-	int is_negative = n < 0;
-
-	if (is negative)
+	if (n < 0)
 	{
 		_putchar('-');
-		n = -n
+		n = -n;
 	}
-	int digits = 0;
-
 	while (n != 0)
 	{
 		n /= 10;
 		digits++;
 	}
-	int i;
-
 	for (i = digits - 1; i >= 0; i--)
 	{
 		int digit = n % 10;
