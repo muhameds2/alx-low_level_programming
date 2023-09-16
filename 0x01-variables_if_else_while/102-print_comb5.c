@@ -11,16 +11,18 @@ int main(void)
 	{
 		for (j = i + 1; j <= 99; j++)
 		{
+			if (j == i + 1)
+				continue;
+			else if (j != 100)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			putchar('0' + i / 10);
 			putchar('0' + i % 10);
 			putchar(' ');
 			putchar(j / 10 + '0');
 			putchar(j % 10 + '0');
-			if (j != 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
 		}
 	}
 	return (0);
