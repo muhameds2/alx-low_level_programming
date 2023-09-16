@@ -14,13 +14,13 @@ int main(void)
 		{
 			a = i / 10 + '0';
 			b = i % 10 + '0';
-			_putchar(a);
-			_putchar(b);
-			_putchar(' ');
-			_putchar(j / 10 + '0');
-			_putchar(j % 10 + '0');
-			_putchar(',');
-			_putchar(' ');
+			putchar(a);
+			putchar(b);
+			putchar(' ');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	return (0);
