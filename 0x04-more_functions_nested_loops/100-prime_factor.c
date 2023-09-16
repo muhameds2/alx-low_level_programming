@@ -6,10 +6,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int c;
-	long num = 612862475143;
+	long num = 612852475143;
 
 	for (c = (int) sqrt(num); c > 2; c--)
 	{
