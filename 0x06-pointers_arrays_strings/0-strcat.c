@@ -12,11 +12,6 @@ char *_strcat(char *dest, char *src)
 	{
 		j = i + 1;
 	}
-	if (*(dest + j) != ' ' || *(src + 0) != ' ')
-	{
-		*(dest + j) = ' ';
-		j++;
-	}
 	for (i = 0; *(src + i) != '\0'; i++)
 	{
 		*(dest + j + i) = *(src + i);
