@@ -6,16 +6,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j, k;
+	int i, j;
 
 	for (i = 0; *(dest + i) != '\0'; i++)
 	{
-		k = i;
+		j = i + 1;
 	}
-	for (j = 0; *(src + j) != '\0'; j++)
+	for (i = 0; *(src + i) != '\0'; i++)
 	{
-		*(dest + (k + 1)) = *(src + j);
+		*(dest + j + i + 1) = *(src + i);
 	}
-	*(dest + (k + 1)) = '\0';
 	return (dest);
+
 }
