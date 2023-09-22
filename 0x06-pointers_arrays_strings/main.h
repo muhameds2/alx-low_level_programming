@@ -6,7 +6,7 @@ char *_strncat(char *, char *, int);
 
 char *_strncpy(char *dest, char *src, int n);
 
-int _stcmp(char *, char *);
+int _strcmp(char *, char *);
 
 void reverse_array(int *, int n);
 
