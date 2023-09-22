@@ -5,7 +5,7 @@
  *
  * Return: str
  */
-char *_string_toupper(char *str)
+char *string_toupper(char *str)
 {
 	char *s = str;
 
